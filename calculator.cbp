@@ -6,6 +6,7 @@
 		<Option platforms="Unix;" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
+		<Option extended_obj_names="1" />
 		<Build>
 			<Target title="Debug">
 				<Option platforms="Unix;" />
@@ -39,7 +40,7 @@
 		<Linker>
 			<Add option="`pkg-config gtk+-3.0 --libs`" />
 		</Linker>
-		<Unit filename="button1.cpp" />
+		<Unit filename="button1r1.cpp" />
 		<Unit filename="buttonRowFour.cpp" />
 		<Unit filename="buttonRowOne.cpp" />
 		<Unit filename="buttonRowThree.cpp" />
