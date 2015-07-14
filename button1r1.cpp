@@ -1,5 +1,5 @@
-#ifndef BUTTON1_CPP_INCLUDED
-#define BUTTON1_CPP_INCLUDED
+#ifndef BUTTON1R1_CPP_INCLUDED
+#define BUTTON1R1_CPP_INCLUDED
 
 #include <gtk/gtk.h>
 
@@ -16,7 +16,7 @@ public:
 private:
     static void buttonFunc(gpointer win, gpointer display)
     {
-        gtk_entry_set_text(GTK_ENTRY(display), "Your Not Lucky Jerk");
+        gtk_entry_set_text(GTK_ENTRY(display), "Your Not Lucky");
     }
 };
 
