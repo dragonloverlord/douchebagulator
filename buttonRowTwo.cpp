@@ -2,7 +2,7 @@
 #define BUTTONROWTWO_CPP_INCLUDED
 
 #include <gtk/gtk.h>
-#include "buttons_deps.h"
+#include "buttons_deps.hpp"
 
 class ButtonRowTwo
 {

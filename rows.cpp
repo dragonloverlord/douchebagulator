@@ -2,7 +2,7 @@
 #define ROWS_CPP_INCLUDED
 
 #include <gtk/gtk.h>
-#include "buttons.h"
+#include "buttons.hpp"
 
 class Rows
 {

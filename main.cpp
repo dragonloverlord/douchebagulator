@@ -1,6 +1,6 @@
 #include <cstdlib>
 #include <gtk/gtk.h>
-#include "rows.h"
+#include "rows.hpp"
 
 int main (int argc, char *argv[])
 {
