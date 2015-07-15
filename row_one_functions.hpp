@@ -3,5 +3,6 @@
 
 #include "button1r1.cpp"
 #include "button2r1.cpp"
+#include "button3r1.cpp"
 
 #endif
