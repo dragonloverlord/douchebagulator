@@ -41,18 +41,20 @@
 			<Add option="`pkg-config gtk+-3.0 --libs`" />
 		</Linker>
 		<Unit filename="button1r1.cpp" />
+		<Unit filename="button2r1.cpp" />
+		<Unit filename="button3r1.cpp" />
 		<Unit filename="buttonRowFour.cpp" />
 		<Unit filename="buttonRowOne.cpp" />
 		<Unit filename="buttonRowThree.cpp" />
 		<Unit filename="buttonRowTwo.cpp" />
-		<Unit filename="buttons.h" />
-		<Unit filename="buttons_deps.h" />
+		<Unit filename="buttons.hpp" />
+		<Unit filename="buttons_deps.hpp" />
 		<Unit filename="calc.cpp" />
 		<Unit filename="display.cpp" />
 		<Unit filename="main.cpp" />
-		<Unit filename="row_one_functions.h" />
+		<Unit filename="row_one_functions.hpp" />
 		<Unit filename="rows.cpp" />
-		<Unit filename="rows.h" />
+		<Unit filename="rows.hpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
