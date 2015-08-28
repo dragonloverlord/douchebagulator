@@ -52,6 +52,7 @@
 		<Unit filename="calc.cpp" />
 		<Unit filename="display.cpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="row1/button4r1.cpp" />
 		<Unit filename="row_one_functions.hpp" />
 		<Unit filename="rows.cpp" />
 		<Unit filename="rows.hpp" />
