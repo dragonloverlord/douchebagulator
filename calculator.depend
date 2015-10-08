@@ -4065,7 +4065,7 @@
 	"buttons_deps.hpp"
 	"row_one_functions.hpp"
 
-1444274171 /home/dragonloverlord/Desktop/cpp/projects/douchebagulator/buttonRowTwo.cpp
+1444276892 /home/dragonloverlord/Desktop/cpp/projects/douchebagulator/buttonRowTwo.cpp
 	<gtk/gtk.h>
 	"buttons_deps.hpp"
 	"row_two_functions.hpp"
@@ -4088,8 +4088,9 @@
 	<gtk/gtk.h>
 	"buttons.hpp"
 
-1444272795 /home/dragonloverlord/Desktop/cpp/projects/douchebagulator/row_two_functions.hpp
+1444277708 /home/dragonloverlord/Desktop/cpp/projects/douchebagulator/row_two_functions.hpp
 	"row2/button1r2.cpp"
+	"row2/button2r2.cpp"
 
 1444274236 /home/dragonloverlord/Desktop/cpp/projects/douchebagulator/row2/button1r2.cpp
 	<gtk/gtk.h>
@@ -4104,5 +4105,8 @@
 	<gtk/gtk.h>
 
 1444274236 source:/home/dragonloverlord/Desktop/cpp/projects/douchebagulator/row2/button1r2.cpp
+	<gtk/gtk.h>
+
+1444277677 /home/dragonloverlord/Desktop/cpp/projects/douchebagulator/row2/button2r2.cpp
 	<gtk/gtk.h>
 
