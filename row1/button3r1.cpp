@@ -16,7 +16,7 @@ public:
 private:
     static void buttonFunc(gpointer win, gpointer display)
     {
-        gtk_entry_set_text(GTK_ENTRY(display), "404 NOT FOUND");
+        gtk_entry_set_text(GTK_ENTRY(display), "Nine! Nine! Nine! I German XD");
     }
 };
 
