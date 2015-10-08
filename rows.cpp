@@ -13,7 +13,7 @@ public:
 
         display = row_1(win, main_calc_box);
         row_2(win, main_calc_box, button, display);
-        row_3(win, main_calc_box, button);
+        row_3(win, main_calc_box, button, display);
         row_4(win, main_calc_box, button);
         row_5(win, main_calc_box, button);
     }
@@ -33,9 +33,9 @@ private:
         ButtonRowOne().main(win, main_calc_box, button, display);
     }
 
-    static void row_3(GtkWidget *win, GtkWidget *main_calc_box, GtkWidget *button)
+    static void row_3(GtkWidget *win, GtkWidget *main_calc_box, GtkWidget *button, GtkWidget *display)
     {
-        ButtonRowTwo().main(win, main_calc_box, button);
+        ButtonRowTwo().main(win, main_calc_box, button, display);
     }
 
     static void row_4(GtkWidget *win, GtkWidget *main_calc_box, GtkWidget *button)
