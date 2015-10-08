@@ -15,6 +15,7 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-std=c++11" />
 					<Add option="-g" />
 				</Compiler>
 			</Target>
@@ -25,7 +26,8 @@
 				<Option type="0" />
 				<Option compiler="gcc" />
 				<Compiler>
-					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-std=c++11" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -33,16 +35,13 @@
 			</Target>
 		</Build>
 		<Compiler>
-			<Add option="-Wall" />
 			<Add option="-std=c++11" />
+			<Add option="-Wall" />
 			<Add option="`pkg-config gtk+-3.0 --cflags`" />
 		</Compiler>
 		<Linker>
 			<Add option="`pkg-config gtk+-3.0 --libs`" />
 		</Linker>
-		<Unit filename="button1r1.cpp" />
-		<Unit filename="button2r1.cpp" />
-		<Unit filename="button3r1.cpp" />
 		<Unit filename="buttonRowFour.cpp" />
 		<Unit filename="buttonRowOne.cpp" />
 		<Unit filename="buttonRowThree.cpp" />
@@ -52,8 +51,13 @@
 		<Unit filename="calc.cpp" />
 		<Unit filename="display.cpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="row1/button1r1.cpp" />
+		<Unit filename="row1/button2r1.cpp" />
+		<Unit filename="row1/button3r1.cpp" />
 		<Unit filename="row1/button4r1.cpp" />
+		<Unit filename="row2/button1r2.cpp" />
 		<Unit filename="row_one_functions.hpp" />
+		<Unit filename="row_two_functions.hpp" />
 		<Unit filename="rows.cpp" />
 		<Unit filename="rows.hpp" />
 		<Extensions>
