@@ -35,7 +35,7 @@
 			</Target>
 		</Build>
 		<Compiler>
-			<Add option="-std=c++11" />
+			<Add option="-std=c++14" />
 			<Add option="-Wall" />
 			<Add option="`pkg-config gtk+-3.0 --cflags`" />
 		</Compiler>
@@ -56,6 +56,7 @@
 		<Unit filename="row1/button3r1.cpp" />
 		<Unit filename="row1/button4r1.cpp" />
 		<Unit filename="row2/button1r2.cpp" />
+		<Unit filename="row2/button2r2.cpp" />
 		<Unit filename="row_one_functions.hpp" />
 		<Unit filename="row_two_functions.hpp" />
 		<Unit filename="rows.cpp" />
