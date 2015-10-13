@@ -12,7 +12,7 @@ public:
     {
         button_1(win, main_calc_box, button, display);
         button_2(win, main_calc_box, button, display);
-        button_3(win, main_calc_box, button);
+        button_3(win, main_calc_box, button, display);
         button_4(win, main_calc_box, button);
         button_5(win, main_calc_box, button);
     }
@@ -46,7 +46,7 @@ private:
         gtk_grid_attach(GTK_GRID(main_calc_box), button, 2, 2, 1, 1);
     }
 
-    static void button_3(GtkWidget *win, GtkWidget *main_calc_box, GtkWidget *button)
+    static void button_3(GtkWidget *win, GtkWidget *main_calc_box, GtkWidget *button, GtkWidget *display)
     {
         button = gtk_button_new_with_label("6");
         gtk_widget_set_hexpand(GTK_WIDGET(button), TRUE);
