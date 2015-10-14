@@ -4150,7 +4150,7 @@
 	<gtk/gtk.h>
 	"buttons_deps.hpp"
 
-1444739208 source:/home/dragonloverlord/Desktop/cpp/projects/calculator/douchebagulator/buttonRowTwo.cpp
+1444791365 source:/home/dragonloverlord/Desktop/cpp/projects/calculator/douchebagulator/buttonRowTwo.cpp
 	<gtk/gtk.h>
 	"buttons_deps.hpp"
 	"row_two_functions.hpp"
@@ -4235,5 +4235,8 @@
 	"buttons.hpp"
 
 1444791315 /home/dragonloverlord/Desktop/cpp/projects/calculator/douchebagulator/row2/button3r2.cpp
+	<gtk/gtk.h>
+
+1444791315 source:/home/dragonloverlord/Desktop/cpp/projects/calculator/douchebagulator/row2/button3r2.cpp
 	<gtk/gtk.h>
 
