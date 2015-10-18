@@ -2,7 +2,6 @@
 #define BUTTONROWTWO_CPP_INCLUDED
 
 #include <gtk/gtk.h>
-#include "buttons_deps.hpp"
 #include "row_two_functions.hpp"
 
 class ButtonRowTwo

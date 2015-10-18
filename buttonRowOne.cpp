@@ -2,7 +2,6 @@
 #define BUTTONROWONE_CPP_INCLUDED
 
 #include <gtk/gtk.h>
-#include "buttons_deps.hpp"
 #include "row_one_functions.hpp"
 
 class ButtonRowOne
