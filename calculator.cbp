@@ -33,6 +33,27 @@
 					<Add option="-s" />
 				</Linker>
 			</Target>
+			<Target title="Windows">
+				<Option platforms="Unix;" />
+				<Option output="bin/Windows/calculator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="mingw_compiler" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Option projectIncludeDirsRelation="1" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Option projectLibDirsRelation="1" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-std=c++14" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-mwindows" />
+					<Add option="`pkg-config /usr/x86_64-w64-mingw32/pkgconfig/gtk+-3.0.pc --libs`" />
+				</Linker>
+			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
@@ -60,6 +81,7 @@
 		<Unit filename="row2/button3r2.cpp" />
 		<Unit filename="row2/button4r2.cpp" />
 		<Unit filename="row3/button1r3.cpp" />
+		<Unit filename="row3/button2r3.cpp" />
 		<Unit filename="row_one_functions.hpp" />
 		<Unit filename="row_three_functions.hpp" />
 		<Unit filename="row_two_functions.hpp" />
