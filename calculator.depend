@@ -4294,14 +4294,15 @@
 1446560981 /home/dragonloverlord/Desktop/cpp/calculator/douchebagulator/row1/button4r1.cpp
 	<gtk/gtk.h>
 
-1446744352 source:/home/dragonloverlord/Desktop/cpp/calculator/douchebagulator/buttonRowThree.cpp
+1448988596 source:/home/dragonloverlord/Desktop/cpp/calculator/douchebagulator/buttonRowThree.cpp
 	<gtk/gtk.h>
 	"buttons_deps.hpp"
 	"row_three_functions.hpp"
 
-1446745301 /home/dragonloverlord/Desktop/cpp/calculator/douchebagulator/row_three_functions.hpp
+1449455220 /home/dragonloverlord/Desktop/cpp/calculator/douchebagulator/row_three_functions.hpp
 	"row3/button1r3.cpp"
 	"row3/button2r3.cpp"
+	"row3/button3r3.cpp"
 
 1446560981 /home/dragonloverlord/Desktop/cpp/calculator/douchebagulator/row3/button1r3.cpp
 	<gtk/gtk.h>
@@ -4365,7 +4366,7 @@
 	<gtk/gtk.h>
 	"row_two_functions.hpp"
 
-1446744352 /home/dragonloverlord/Desktop/cpp/calculator/douchebagulator/buttonRowThree.cpp
+1448988596 /home/dragonloverlord/Desktop/cpp/calculator/douchebagulator/buttonRowThree.cpp
 	<gtk/gtk.h>
 	"buttons_deps.hpp"
 	"row_three_functions.hpp"
@@ -4412,5 +4413,8 @@
 	<gtk/gtk.h>
 
 1446745262 source:/home/dragonloverlord/Desktop/cpp/calculator/douchebagulator/row3/button2r3.cpp
+	<gtk/gtk.h>
+
+1449455490 /home/dragonloverlord/Desktop/cpp/calculator/douchebagulator/row3/button3r3.cpp
 	<gtk/gtk.h>
 

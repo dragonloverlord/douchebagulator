@@ -82,6 +82,7 @@
 		<Unit filename="row2/button4r2.cpp" />
 		<Unit filename="row3/button1r3.cpp" />
 		<Unit filename="row3/button2r3.cpp" />
+		<Unit filename="row3/button3r3.cpp" />
 		<Unit filename="row_one_functions.hpp" />
 		<Unit filename="row_three_functions.hpp" />
 		<Unit filename="row_two_functions.hpp" />
