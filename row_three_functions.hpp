@@ -3,5 +3,6 @@
 
 #include "row3/button1r3.cpp"
 #include "row3/button2r3.cpp"
+#include "row3/button3r3.cpp"
 
 #endif
